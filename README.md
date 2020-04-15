@@ -6,6 +6,7 @@ The first container is a Python Flask webserver, which is called "backend". It c
 
 The second one is a Vue App that connects to the Flask server to query a random number and display it. The docker-compose makes sure that the Vue auto-reload still functions properly even within the container.
 
+The backend binds to port 5000, the frontend to 8080.
 
 'start.sh' builds and starts both containers without the vue auto-reload.
 
