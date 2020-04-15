@@ -1,0 +1,6 @@
+[
+  {
+    "files": "**/*.py",
+    "command": "touch backend/uwsgi.ini"
+  }
+]
