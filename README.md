@@ -12,4 +12,4 @@ The backend binds to port 5000, the frontend to 8080.
 
 'backend/run.sh' and 'frontend/run.sh' run each container individually.
 
-'run-dev.sh' starts both containers in developer mode (with vue auto-reload).
+'run-dev.sh' starts both containers in developer mode (with vue auto-reload). You need to run 'start.sh' or build the containers first, since this does not build them. 
