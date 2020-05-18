@@ -4,7 +4,7 @@ from random import randint
 
 @app.route('/')
 def home():
-   return "hello worldos!"
+   return "hello world!"
 
 @app.route('/api/random')
 def random_number():
